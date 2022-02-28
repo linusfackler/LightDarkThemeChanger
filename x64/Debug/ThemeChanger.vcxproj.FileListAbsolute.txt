@@ -1,0 +1,5 @@
+C:\Users\LinusFackler\source\repos\ThemeChanger\x64\Debug\ThemeChanger.vcxproj.AssemblyReference.cache
+C:\Users\LinusFackler\source\repos\ThemeChanger\x64\Debug\ThemeChanger.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\LinusFackler\source\repos\ThemeChanger\x64\Debug\ThemeChanger.MyForm.resources
+C:\Users\LinusFackler\source\repos\ThemeChanger\x64\Debug\ThemeChanger.vcxproj.GenerateResource.cache
+C:\Users\LinusFackler\source\repos\ThemeChanger\x64\Debug\ThemeChanger.exe
