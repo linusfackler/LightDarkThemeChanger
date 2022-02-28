@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c1326d0b-a149-4a38-b0df-406a1f6671db": {
+      "ProjectGuid": "c1326d0b-a149-4a38-b0df-406a1f6671db",
+      "DisplayName": "ThemeChanger",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
