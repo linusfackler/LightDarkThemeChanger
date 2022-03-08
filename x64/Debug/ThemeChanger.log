@@ -1,7 +1,5 @@
 ﻿  MyForm.cpp
   The contents of <filesystem> are available only with C++17 or later.
 C:\Users\LinusFackler\Documents\GitHub\LightDarkThemeChanger\MyForm.cpp(8,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
-  Generating Code...
   MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   ThemeChanger.vcxproj -> C:\Users\LinusFackler\Documents\GitHub\LightDarkThemeChanger\x64\Debug\ThemeChanger.exe

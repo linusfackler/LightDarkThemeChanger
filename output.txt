@@ -1,0 +1,1 @@
+SCHTASKS /CREATE /SC daily /TN "tests\jpoikjsoiejf" /TR "%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name SystemUsesLightTheme -Value 0; Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0" /ST 18:18
