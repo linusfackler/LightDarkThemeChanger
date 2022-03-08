@@ -494,15 +494,15 @@ namespace ThemeChanger {
 			{
 				char temp[256];
 				GetCurrentDirectoryA(256, temp);
-				std::string powersh = "Set-ItemProperty -Path HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize "
-					"-Name SystemUsesLightTheme -Value 0; Set-ItemProperty -Path HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize -Name AppsUseLightTheme -Value 0";
+				//std::string powersh = "Set-ItemProperty -Path HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize "
+				//	"-Name SystemUsesLightTheme -Value 0; Set-ItemProperty -Path HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize -Name AppsUseLightTheme -Value 0";
 
 
-				std::string comm = "SCHTASKS /CREATE /SC daily /TN \"" + pathD + "\" /TR \"%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe " 
-					+ powersh + "\" /ST " + hours + ":" + minutes;
+				//std::string comm = "SCHTASKS /CREATE /SC daily /TN \"" + pathD + "\" /TR \"%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe " 
+				//	+ powersh + "\" /ST " + hours + ":" + minutes;
 
-				/*std::string comm = "SCHTASKS /CREATE /SC daily /TN \"" + pathD + "\" /TR \"" + temp + "\\dark.bat\" /ST "
-					+ hours + ":" + minutes;*/
+				std::string comm = "SCHTASKS /CREATE /SC daily /TN \"" + pathD + "\" /TR \"" + temp + "\\dark.bat\" /ST "
+					+ hours + ":" + minutes;
 
 				std::ofstream outfile;
 				outfile.open("output.txt");
