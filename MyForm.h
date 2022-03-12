@@ -492,6 +492,8 @@ namespace ThemeChanger {
 
 			else
 			{
+				// CHANGE PLS
+				// IMPORTANT
 				char temp[256];
 				GetCurrentDirectoryA(256, temp);
 				//std::string powersh = "Set-ItemProperty -Path HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize "
