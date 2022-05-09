@@ -10,5 +10,4 @@ void main(array<String^>^ args)
 	Application::SetCompatibleTextRenderingDefault(false);
 	ThemeChanger::MyForm form;
 	Application::Run(% form);
-
 }
